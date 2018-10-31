@@ -1,0 +1,15 @@
+api 服务接口目录
+    server 主服务文件
+    module目录 自定义模块
+mange 后台管理系统目录
+site 站点目录
+    src 源码目录
+        common Bus目录
+        components 组件目录
+        vuex vuex目录
+            admin  管理员vuex目录
+            shoptype 店铺类型vuex目录
+            shop     店铺vuex目录
+        router 路由目录
+        assets 静态资源目录
+        filters 过滤器目录

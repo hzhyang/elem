@@ -1,0 +1,69 @@
+总数据库：eleme
+商品分类数据库：
+	id
+	shopId
+	shopName
+	goodstype
+	goodstyleImg
+店铺类型数据库： shopType 集合
+    _id(自动生成)
+    shopType:店铺类型
+    typeImg:类型图片
+    addTime:添加时间
+    upTime:修改时间
+店铺数据库:      shops 集合
+    _id(自动生成)
+    shopTypeId(店铺类型id) //店铺类型数据库中的_id
+    shopImg:店铺图片
+    shopName:店铺名称
+    starLevel:星级
+    saleNum:销售单数
+    isSale:是否减免
+    sendPrice:起送价格
+    ....
+商品数据库：      stores 集合
+    _id(商品id 自动生成)
+    storeImg:商品图片
+    price:商品价格
+    stock:库存
+    storename:商品名称
+    SaleNum:销售数量
+    storeType:商品类别
+	shopId
+	shopname
+	goodtypeid
+广告数据库：      adv 集合
+    _id(自动生成)
+    adType:广告类型
+    adImg:广告图片
+    adUrl:广告链接
+    addTime:添加时间
+    upTime:修改时间
+用户数据库：      user 集合
+    _id(自动生成)
+    userIMg:用户头像
+    username:用户名
+    userpass:密码
+    address：地址
+    money：金钱
+    order: 订单
+    orderstatus:订单状态
+购物车数据库：     shopCar 集合
+    _id(自动生成)
+    shopId:店铺id
+    storeId:商品id
+    price:价格
+    buyNum:数量
+    address:地址
+    storeImg:商品图片
+***管理员数据库：     admin 集合
+    _id(自动生成)
+    adminName:管理员名字
+    adminPass:管理员密码
+***管理员登录日志：   adminLoginLog 集合
+    _id(自动生成)
+    adminName:管理员的名字
+    admin_id:管理员的id
+    lastLoginTime:管理员的登录时间
+
+

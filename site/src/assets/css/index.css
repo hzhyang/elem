@@ -1,0 +1,513 @@
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, td, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset, iframe {
+  border: 0; }
+
+img {
+  display: block;
+  border: none; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+i, em {
+  font-style: normal; }
+
+body {
+  font-size: 16px; }
+
+input, a {
+  outline: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clear:after {
+  content: " ";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+.clear {
+  zoom: 1; }
+
+html {
+  font-family: 'Helvetica Neue', Tahoma, Arial, PingFangSC-Regular, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif; }
+
+html {
+  font-size: 26.7vw;
+  height: 100%;
+  width: 100%; }
+
+body {
+  font-size: 16px;
+  width: 100%;
+  height: 100%; }
+
+#app {
+  width: 100%; }
+
+.title {
+  height: 0.25rem;
+  margin-left: 0.14rem; }
+  .title p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 0.19rem;
+    line-height: 20px; }
+
+header {
+  width: 100%; }
+
+.searchbox {
+  height: 0.52rem;
+  width: 3.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #26a2ff; }
+
+.search {
+  width: 3.47rem;
+  height: 0.36rem;
+  background: #fff;
+  line-height: 0.36rem;
+  text-align: center;
+  color: #999;
+  font-size: 14px; }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 0.5rem; }
+  .home main {
+    clear: both;
+    flex: 1;
+    width: 100%; }
+    .home main .swipe {
+      height: 1.75rem; }
+      .home main .swipe li {
+        width: 20%;
+        padding-top: 2.93vw;
+        text-align: center;
+        float: left; }
+        .home main .swipe li img {
+          width: .45rem;
+          height: .45rem;
+          display: inline-block; }
+        .home main .swipe li span {
+          font-size: .12rem;
+          display: block;
+          margin-top: 1.3vw; }
+    .home main .adv {
+      padding: 0 0.1rem;
+      height: 2.33rem;
+      width: 3.55rem; }
+      .home main .adv ul {
+        display: flex;
+        justify-content: space-between; }
+        .home main .adv ul li {
+          width: 1.61rem;
+          height: 1.4rem;
+          position: relative;
+          background: #f7f7f7;
+          padding-left: .15rem; }
+          .home main .adv ul li h3 {
+            font-size: .18rem;
+            font-weight: bold;
+            color: #333;
+            margin-top: .14rem; }
+          .home main .adv ul li p {
+            font-size: .13rem;
+            color: #777;
+            line-height: 1em;
+            margin: 1.3vw 0 2.4vw 0; }
+          .home main .adv ul li span {
+            font-size: .12rem;
+            color: #af8260;
+            line-height: 1em; }
+          .home main .adv ul li img {
+            width: 1.17rem;
+            position: absolute;
+            right: 0;
+            bottom: -2vw; }
+        .home main .adv ul li:nth-child(2) h3 {
+          color: #e81919; }
+        .home main .adv ul li:nth-child(2) span {
+          color: #333;
+          font-weight: bold; }
+          .home main .adv ul li:nth-child(2) span a {
+            color: #e81919; }
+      .home main .adv p {
+        margin-top: 0.05rem; }
+        .home main .adv p img {
+          width: 3.55rem;
+          height: 0.88rem; }
+    .home main .shops .shop_title {
+      height: .5rem;
+      width: 100%;
+      font-size: .16rem;
+      text-align: center;
+      line-height: .5rem; }
+    .home main .shops .topbar {
+      width: 100%;
+      height: .33rem;
+      display: flex;
+      background: #fff;
+      border-bottom: 1px solid #777;
+      justify-content: space-around; }
+      .home main .shops .topbar li {
+        font-size: .14rem;
+        height: 100%;
+        line-height: .33rem; }
+    .home main .shops .shoplist > div {
+      height: 1.73rem;
+      display: flex;
+      justify-content: flex-start;
+      padding: 0 0.1rem 0 0.1rem;
+      border-bottom: 1px solid #777; }
+      .home main .shops .shoplist > div .logo {
+        margin-right: .1rem; }
+        .home main .shops .shoplist > div .logo img {
+          width: .65rem;
+          height: .65rem;
+          margin-top: .16rem; }
+      .home main .shops .shoplist > div .info {
+        width: 100%;
+        margin-top: .19rem; }
+        .home main .shops .shoplist > div .info > p {
+          line-height: .16rem;
+          margin-bottom: .12rem; }
+          .home main .shops .shoplist > div .info > p span {
+            font-weight: bold;
+            font-size: .16rem; }
+        .home main .shops .shoplist > div .info div {
+          line-height: 1em; }
+          .home main .shops .shoplist > div .info div .el-rate {
+            line-height: 1em;
+            height: .12rem;
+            display: inline-block;
+            width: 1.1rem; }
+            .home main .shops .shoplist > div .info div .el-rate .el-rate__icon {
+              font-size: .12rem; }
+          .home main .shops .shoplist > div .info div span {
+            font-size: .12rem; }
+        .home main .shops .shoplist > div .info > span {
+          display: inline-block;
+          width: 100%;
+          margin-top: .05rem;
+          display: flex;
+          font-size: .12rem;
+          justify-content: space-between; }
+        .home main .shops .shoplist > div .info > ul {
+          width: .44rem;
+          height: .15rem;
+          font-size: .12rem;
+          text-align: center;
+          line-height: .15rem;
+          border-radius: .02rem;
+          border: 1px solid #666;
+          margin: 0.1rem 0 0.16rem 0; }
+        .home main .shops .shoplist > div .info > dl {
+          display: flex;
+          font-size: .12rem;
+          justify-content: space-between; }
+          .home main .shops .shoplist > div .info > dl div p {
+            margin-bottom: .1rem; }
+    .home main .mint-spinner-fading-circle {
+      display: inline-block; }
+    .home main .isdown {
+      text-align: center;
+      width: 100%;
+      margin-bottom: .5rem;
+      display: inline-block; }
+
+.my {
+  background: #f5f5f5;
+  height: 100%; }
+  .my .mt-header {
+    height: .88rem; }
+  .my .logininfo {
+    height: 1.93rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; }
+    .my .logininfo .topinfo {
+      padding: 0 .15rem;
+      height: 1.1rem;
+      background: #00a0ff;
+      display: flex;
+      justify-content: flex-start; }
+      .my .logininfo .topinfo dl {
+        margin-top: .25rem; }
+        .my .logininfo .topinfo dl img {
+          margin-right: .18rem; }
+      .my .logininfo .topinfo > span {
+        display: flex;
+        width: 100%;
+        justify-content: space-between; }
+        .my .logininfo .topinfo > span p {
+          display: flex;
+          justify-content: flex-start;
+          margin-top: .34rem;
+          line-height: 1em;
+          flex-direction: column;
+          color: #fff; }
+          .my .logininfo .topinfo > span p span {
+            font-size: .24rem;
+            margin-bottom: .12rem; }
+          .my .logininfo .topinfo > span p em {
+            font-size: .12rem; }
+        .my .logininfo .topinfo > span i {
+          line-height: 1.1rem;
+          color: #fff; }
+    .my .logininfo .downinfo {
+      height: .83rem;
+      display: flex;
+      justify-content: space-around; }
+      .my .logininfo .downinfo li:nth-child(1) em {
+        color: blue; }
+      .my .logininfo .downinfo li:nth-child(2) em {
+        color: red; }
+      .my .logininfo .downinfo li:nth-child(3) em {
+        color: green; }
+      .my .logininfo .downinfo li {
+        background: #ffff;
+        height: 100%;
+        width: 33%;
+        text-align: center; }
+        .my .logininfo .downinfo li img {
+          display: inline-block;
+          width: .26rem;
+          margin: .18rem 0 .09rem 0; }
+        .my .logininfo .downinfo li em {
+          display: inline-block;
+          font-size: .16rem;
+          margin: .18rem 0 .09rem 0; }
+          .my .logininfo .downinfo li em i {
+            font-size: .12rem; }
+        .my .logininfo .downinfo li span {
+          display: block;
+          font-size: .12rem; }
+  .my main dl {
+    background: #fff;
+    margin-top: .12rem; }
+    .my main dl > li {
+      padding: 0 .15rem;
+      height: .44rem; }
+      .my main dl > li a {
+        width: 100%;
+        display: inline-block;
+        height: 100%;
+        line-height: 0.44rem;
+        display: flex;
+        justify-content: space-between; }
+        .my main dl > li a > span {
+          display: flex;
+          justify-content: flex-start; }
+          .my main dl > li a > span em {
+            margin-left: .1rem;
+            font-size: .16rem; }
+  .my main ul {
+    background: #fff;
+    margin-top: .12rem; }
+    .my main ul li:nth-child(1) {
+      border-bottom: 1px solid #f7f7f7; }
+    .my main ul > li {
+      padding: 0 .15rem;
+      height: .44rem; }
+      .my main ul > li a {
+        width: 100%;
+        display: inline-block;
+        height: 100%;
+        line-height: 0.44rem;
+        display: flex;
+        justify-content: space-between; }
+        .my main ul > li a > span {
+          display: flex;
+          justify-content: flex-start; }
+          .my main ul > li a > span em {
+            margin-left: .1rem;
+            font-size: .16rem; }
+  .my main ol {
+    background: #fff;
+    margin-top: .12rem; }
+    .my main ol li:nth-child(1) {
+      border-bottom: 1px solid #f7f7f7; }
+    .my main ol > li {
+      padding: 0 .15rem;
+      height: .44rem; }
+      .my main ol > li a {
+        width: 100%;
+        display: inline-block;
+        height: 100%;
+        line-height: 0.44rem;
+        display: flex;
+        justify-content: space-between; }
+        .my main ol > li a > span {
+          display: flex;
+          justify-content: flex-start; }
+          .my main ol > li a > span em {
+            margin-left: .1rem;
+            font-size: .16rem; }
+
+.login p {
+  width: 100%;
+  height: 1.4rem;
+  text-align: center; }
+  .login p img {
+    width: 1.36rem;
+    height: .56rem;
+    margin-top: .38rem;
+    display: inline-block; }
+.login h3 {
+  width: .6rem;
+  height: .2rem;
+  margin: 0 auto;
+  font-size: .14rem;
+  text-align: center;
+  color: #2395ff;
+  border-bottom: .02rem solid #2395ff; }
+.login .input {
+  margin: 0 auto;
+  width: 3rem;
+  margin-top: .16rem; }
+  .login .input p:nth-child(1) {
+    margin-bottom: .16rem; }
+  .login .input p {
+    margin: 0 auto;
+    width: 3rem;
+    height: .48rem;
+    position: relative; }
+    .login .input p .el-input__inner {
+      border-radius: .05rem;
+      padding-left: .1rem;
+      margin: 0 auto;
+      width: 2.9rem;
+      display: inline-block;
+      height: .46rem; }
+    .login .input p .el-input__suffix {
+      margin-top: 0;
+      margin-right: .1rem;
+      line-height: 0.46rem; }
+    .login .input p .el-input__suffix-inner {
+      margin-top: 0; }
+    .login .input p .select {
+      color: #56aeff; }
+    .login .input p em {
+      position: absolute;
+      right: .1rem;
+      top: .16rem;
+      font-size: .14rem;
+      color: #b1b1b1; }
+  .login .input span {
+    margin-top: .16rem;
+    font-size: .14rem;
+    display: inline-block; }
+.login dl {
+  margin: 0 auto;
+  margin-top: .34rem;
+  width: 3rem;
+  height: .74rem;
+  text-align: center; }
+  .login dl button {
+    width: 100%;
+    height: .42rem;
+    background: #4cd96f;
+    border: none;
+    border-radius: .05rem;
+    margin-bottom: .2rem;
+    font-size: .14rem;
+    color: #fff; }
+  .login dl i {
+    font-size: .12rem;
+    line-height: .12rem;
+    color: #b1b1b1; }
+
+.userinfo {
+  background: #f5f5f5;
+  height: 100%;
+  width: 100%; }
+  .userinfo .main dl {
+    height: 1.32rem; }
+    .userinfo .main dl li:nth-child(1) {
+      height: .8rem; }
+    .userinfo .main dl li {
+      background: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 .15rem;
+      border-bottom: .005rem solid #f5f5f5; }
+      .userinfo .main dl li p {
+        font-size: .16rem;
+        line-height: .8rem; }
+      .userinfo .main dl li span {
+        line-height: 0.8rem;
+        display: flex;
+        justify-content: flex-end; }
+        .userinfo .main dl li span img {
+          width: .6rem;
+          height: .6rem;
+          display: inline-block;
+          margin-top: .1rem;
+          margin-right: .06rem; }
+    .userinfo .main dl li:nth-child(2) {
+      border: none;
+      height: .5rem; }
+      .userinfo .main dl li:nth-child(2) p {
+        line-height: .5rem; }
+      .userinfo .main dl li:nth-child(2) span {
+        line-height: 0.5rem; }
+        .userinfo .main dl li:nth-child(2) span em {
+          font-size: .14rem; }
+  .userinfo .main .account {
+    height: .88rem;
+    width: 100%; }
+    .userinfo .main .account > p {
+      height: 0.2rem;
+      font-size: .12rem;
+      line-height: .12rem;
+      padding: 0 .15rem;
+      padding-top: .16rem; }
+    .userinfo .main .account li {
+      height: .5rem;
+      background: #fff;
+      padding: 0 .15rem;
+      display: flex;
+      justify-content: space-between; }
+      .userinfo .main .account li p {
+        font-size: .16rem;
+        line-height: .5rem; }
+      .userinfo .main .account li span {
+        line-height: 0.5rem;
+        display: flex;
+        justify-content: flex-end; }
+  .userinfo .main ol {
+    height: .5rem; }
+    .userinfo .main ol p {
+      color: red;
+      width: 100%;
+      height: .5rem;
+      line-height: .5rem;
+      font-size: .16rem;
+      text-align: center;
+      background: #fff; }
+
+/*# sourceMappingURL=index.css.map */

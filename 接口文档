@@ -1,0 +1,235 @@
+登录：
+    方式：post
+    地址：http://127.0.0.1/adminlogin
+    参数：{
+        adminName;
+        adminPass;
+    }
+    响应：{
+        ok:1
+        msg:
+    }
+***************
+获取并分页
+方式：get
+    地址：http://127.0.0.1/adminList
+    参数：{
+        page;
+    }
+    响应：{
+        ok:1
+        msg:data
+    }
+***************
+获取并分页
+方式：post
+    地址：http://127.0.0.1/delAdminLog
+    参数：{
+        _id;
+    }
+    响应：{
+        ok:1
+        msg:data
+    }
+
+***********************************************
+添加管理员
+方式：post
+    地址：http://127.0.0.1/addAdmin
+    参数：{
+        adminName;
+        adminPass;
+    }
+    响应：{
+        ok:1
+        msg:data
+    }
+获取管理员
+方式：get
+    地址：http://127.0.0.1/adminList
+    参数：{
+        page;
+    }
+    响应：{
+        ok:1
+        msg:data
+    }
+
+删除管理员
+方式：post
+    地址：http://127.0.0.1/admindel
+    参数：{
+        page;
+        _id;
+    }
+    响应：{
+        ok:1
+        msg:data
+    }
+搜索管理员
+方式：get
+    地址：http://127.0.0.1/adminsearch
+    参数：{
+        page;
+        keyword;
+    }
+    响应：{
+        ok:1
+        msg:data
+    }
+更新管理员
+方式post
+    地址：http://127.0.0.1/updateAdmin
+    参数：{
+        _id,
+        page
+    }
+
+**************************************************
+添加店铺类型
+方式post
+    地址：http://127.0.0.1/shopTypeAdd
+    参数：{
+        shopTypeName;
+        shopTypePic
+    }
+获取店铺类型
+方式get
+    地址：http://127.0.0.1/getshopType
+    参数：{
+        shopTypeName;
+        shopTypePic
+    }
+删除店铺类型
+方式post
+    地址：http://127.0.0.1/delshopType
+    参数：{
+        _id;
+        page
+    }
+	
+模糊查询店铺类型
+方式get
+    地址：http://127.0.0.1/searchshopType
+    参数：{
+        keyword
+        page
+    }
+	响应{
+	ok：1，
+	page
+	count
+	pageNum
+	}
+******************************************************************
+获取店铺并分页
+方式get 
+地址：http://127.0.0.1/getshops
+    参数：{
+        page
+    }
+    响应:{
+        ok==1
+    }
+删除店铺
+方式：post
+	地址：http://127.0.0.1/delshops
+    参数：{
+        id,page
+    }
+    响应：{
+        ok==1
+    }
+	
+	搜索店铺
+方式：post
+	地址：http://127.0.0.1/searchshops
+    参数：{
+        page
+		keyword
+    }
+    响应：{
+        ok==1
+    }
+	
+	修改店铺
+方式：post
+	地址：http://127.0.0.1/updateshops
+    参数：{
+        
+    }
+    响应：{
+        ok==1
+    }
+	
+	添加店铺
+方式：post
+	地址：http://127.0.0.1/addshop
+    参数：{
+        
+    }
+    响应：{
+        ok==1
+    }
+	
+	添加商品类型
+方式：post
+	地址：http://127.0.0.1/addgoodstype
+    参数：{
+        
+    }
+    响应：{
+        ok==1
+    }
+	
+		删除商品类型
+方式：post
+	地址：http://127.0.0.1/delgoodstype
+    参数：{
+        
+    }
+    响应：{
+        ok==1
+    }
+	
+		搜索商品类型
+方式：post
+	地址：http://127.0.0.1/searchgoodstype
+    参数：{
+        
+    }
+    响应：{
+        ok==1
+    }
+	
+		修改商品类型
+方式：post
+	地址：http://127.0.0.1/updategoodstype
+    参数：{
+        
+    }
+    响应：{
+        ok==1
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
